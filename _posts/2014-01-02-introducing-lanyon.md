@@ -1,38 +1,19 @@
 ---
 layout: post
-title: Introducing Lanyon
+title: Blogging Using Markdown and Text-editor
 ---
 
-Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+This post is about how I started blogging using my favourite text-editor and Markdown. Earlier I was using the Blogger and Wordpress. But it is very difficult to edit on WYSIWYG editor. Especially when you are adding code-snippet or commands.
 
-### Built on Poole
+Finally I got [Poole](http://getpoole.com/), which is a butler for [Jekyll](http://jekyllrb.com/).
 
-Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Lanyon here) includes the following:
+### This is what I did.
 
-* Complete Jekyll setup included (layouts, config, [404](/404), [RSS feed](/atom.xml), posts, and [example page](/about))
-* Mobile friendly design and development
-* Easily scalable text and component sizing with `rem` units in the CSS
-* Support for a wide gamut of HTML elements
-* Related posts (time-based, because Jekyll) below each post
-* Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
+Since github provides free hosting for sites developed in Jekyll as github pages at [gihub.io](http://github.io). As a first step to create github page, I just created a repo with ``` <my-github-username>.github.io ``` [here](http://github.com/sujith3g/sujith3g.github.io).
 
-### Lanyon features
+Then cloned the repo to my system, and downloaded the **Lanyon** Poole theme from [here](http://lanyon.getpoole.com/). Extracted the Lanyon files to my repo ``` ~/sujith3g.github.io/```.
+Then pusghed the changes to my repo, after sometime my github page was up and running [sujith3g.github.io](http://sujith3g.github.io).
 
-In addition to the features of Poole, Lanyon adds the following:
-
-* Toggleable sliding sidebar (built with only CSS) via **☰** link in top corner
-* Sidebar includes support for textual modules and a dynamically generated navigation with active link support
-* Two orientations for content and sidebar, default (left sidebar) and [reverse](https://github.com/poole/lanyon#reverse-layout) (right sidebar), available via `<body>` classes
-* [Eight optional color schemes](https://github.com/poole/lanyon#themes), available via `<body>` classes
-
-[Head to the readme](https://github.com/poole/lanyon#readme) to learn more.
-
-### Browser support
-
-Lanyon is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
-
-### Download
-
-Lanyon is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/lanyon">GitHub repository</a> for downloads, bug reports, and features requests.
+It was the default data provided by [Poole](http://getpoole.com/). After reading [this](http://joshualande.com/jekyll-github-pages-poole/) tutorial for several minutes. I have changed some basic configurations like Title,Author Name,etc. And started writing this post using my Sublime-text. 
 
 Thanks!
