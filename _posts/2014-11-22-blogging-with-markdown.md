@@ -3,7 +3,7 @@ layout: post
 title: Blogging Using Markdown and Text-editor
 ---
 
-This post is about how I started blogging using my favourite text-editor and Markdown. Earlier I was using the Blogger and Wordpress. But it is very difficult to edit on WYSIWYG editor. Especially when you are adding code-snippet or commands.
+This post is about how I started blogging using my favourite text-editor and [Markdown](http://en.wikipedia.org/wiki/Markdown). Earlier I was using the Blogger and Wordpress. But it is very difficult to edit on WYSIWYG editor. Especially when you are adding code-snippet or commands.
 
 Finally I got [Poole](http://getpoole.com/), which is a butler for [Jekyll](http://jekyllrb.com/).[ Jekyll](http://jekyllrb.com/) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
 
