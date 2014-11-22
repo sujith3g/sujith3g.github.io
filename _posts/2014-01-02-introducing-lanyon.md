@@ -9,7 +9,7 @@ Finally I got [Poole](http://getpoole.com/), which is a butler for [Jekyll](http
 
 ### This is what I did.
 
-Since github provides free hosting for sites developed in Jekyll as github pages at [gihub.io](http://github.io). As a first step to create github page, I just created a repo with ``` <my-github-username>.github.io ``` [here](http://github.com/sujith3g/sujith3g.github.io).
+Since github provides free hosting for sites developed in Jekyll, as github pages at [gihub.io](http://github.io). As a first step to create github page, I just created a repo with ``` <my-github-username>.github.io ``` [here](http://github.com/sujith3g/sujith3g.github.io).
 
 Then cloned the repo to my system, and downloaded the **Lanyon** Poole theme from [here](http://lanyon.getpoole.com/). Extracted the Lanyon files to my repo ``` ~/sujith3g.github.io/```.
 Then pusghed the changes to my repo, after sometime my github page was up and running [sujith3g.github.io](http://sujith3g.github.io).
