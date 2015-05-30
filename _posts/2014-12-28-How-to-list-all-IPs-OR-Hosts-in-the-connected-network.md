@@ -18,7 +18,7 @@ first you have to check whether nmap is installed or not. by typing the followin
 If nmap is not installed, install it by typing
 
 ```sh
-	$ sudo apt-get install npm
+	$ sudo apt-get install nmap
 ```
 Now type the following command to list all hosts
 
