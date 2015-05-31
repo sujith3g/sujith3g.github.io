@@ -18,5 +18,5 @@ But I cannot use my Laptop always on LAN, then I spend a lot of time in all conf
 3. Then uncheck **`Enable MultiAP Isolation`** .
 4. Click `Apply` Button and Reboot your modem.
 
-![My screenshot]({{ site.url }}/assets/screenshot1.tiff)
+![My screenshot]({{ site.url }}/assets/screenshot1.jpg)
 
