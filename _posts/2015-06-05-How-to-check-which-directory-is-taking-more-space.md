@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: How to check which directory is taking more disk space in linux
 ---
 
