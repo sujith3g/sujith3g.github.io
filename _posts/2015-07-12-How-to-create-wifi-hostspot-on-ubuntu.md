@@ -23,3 +23,12 @@ Ubuntu's pre-installed Network Manager doesn't support AP mode, So we are using 
 ```sh
   $ sudo apt-get install plasma-nm
 ```
+Once it is installed You can start it by 
+
+```sh
+  $ kde-nm-connection-editor	
+```
+After opening it, click `Add` Button and choose `Wirless(shared)`, Now in the wireless tab set an SSID and choose `Access Point` mode.
+Now set the password in the `Wireless Security` tab and Click OK.
+Now your WiFi Hotspot will be visible to all other devices.
+
