@@ -1,13 +1,13 @@
 # Dependencies
 markdown:         redcarpet
-pygments:         true
+highlighter:         pygments
 
 # Permalinks
 permalink:        pretty
 
 # Setup
-title:            sujith3g
-tagline:          'My Blog'
+title:            "Sujith's"
+tagline:          ' Blog'
 description:      'A Blog using Markdown and text editor'
 url:              http://sujith3g.github.io
 
@@ -15,10 +15,11 @@ author:
   name:           'Sujith G'
   url:            https://github.com/sujith3g
 
+gems: [jekyll-paginate]
 paginate:         5
 
 # Custom vars
 version:          2.0.0
 
 github:
-  repo:           https://github.com/poole/lanyon
+  repo:           https://github.com/sujith3g/sujith3g.github.io
