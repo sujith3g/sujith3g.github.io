@@ -10,6 +10,7 @@ title:            "Sujith's"
 tagline:          ' Blog'
 description:      'A Blog using Markdown and text editor'
 url:              http://sujith3g.github.io
+# url:              http://localhost:4000
 
 author:
   name:           'Sujith G'
