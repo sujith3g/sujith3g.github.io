@@ -1,6 +1,10 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:         pygments
+gems: [jekyll-paginate]
+markdown:         kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+highlighter:         rouge
 
 # Permalinks
 permalink:        pretty
@@ -16,7 +20,6 @@ author:
   name:           'Sujith G'
   url:            https://github.com/sujith3g
 
-gems: [jekyll-paginate]
 paginate:         5
 
 # Custom vars

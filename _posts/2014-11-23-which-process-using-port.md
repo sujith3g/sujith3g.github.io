@@ -10,7 +10,7 @@ There are situations in which we will get this error  message.
 
 the port is already in use 
 
- ```
+```
 
 
 This occurs when we are trying to install or execute something, and after some searching I found the following commands, to find the process which uses a particular port. I am adding the commands to kill that (if required), most of the time I do so.  
@@ -21,6 +21,7 @@ These are the commands to find which process is using port ``` 3000 ``` .
 
 
 ```sh
+
 $ sudo netstat -tulpn | grep 3000
 
 ```

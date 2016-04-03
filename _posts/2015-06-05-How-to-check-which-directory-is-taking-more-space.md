@@ -41,7 +41,7 @@ Options used with [`head`](https://en.wikipedia.org/wiki/Head_(Unix))
 ```
  The output for the above command will look like this
 
- ```
+```
 41752	Mac Format - March 2015 {bk}.pdf
 23892	nmap-6.49BETA1.dmg
 4976	Malare Ninne -SongspkFree.Com.mp3
@@ -52,7 +52,7 @@ Options used with [`head`](https://en.wikipedia.org/wiki/Head_(Unix))
 48	Capture.PNG
 40	12453385.pdf
 24	11245371.pdf
- ```
+```
 This method is  not that easy, there is a handy tool for doing the same thing. That is [`ncdu`](http://linux.die.net/man/1/ncdu) (NCurses Disk Usage), which is a curses-based version of `du`, and provides a fast way to see what directories are using your disk space. 
 
 You can install [`ncdu`](http://linux.die.net/man/1/ncdu) on your ubuntu machine using **apt**

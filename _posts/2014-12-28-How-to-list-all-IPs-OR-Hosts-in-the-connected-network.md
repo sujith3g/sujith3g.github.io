@@ -44,4 +44,4 @@ Which gives you a list like this
 	Host is up (0.00019s latency).
 	Nmap done: 256 IP addresses (5 hosts up) scanned in 4.09 seconds
 ```
-Here the option `-sn` stands for Ping scan, and `192.168.1.0/24' is the subnet change this with details of your network.
+Here the option `-sn` stands for Ping scan, and `192.168.1.0/24` is the subnet change this with details of your network.

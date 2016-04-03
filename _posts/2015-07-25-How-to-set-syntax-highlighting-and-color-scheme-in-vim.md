@@ -11,21 +11,21 @@ Yesterday I learned How to set the syntax highlighting and color scheme in Vim.
 
 For enabling syntax highlighting and line numbers, add the following lines to the `~/.vimrc` file, create it if not present.
 
-```
+~~~
 syntax on
 set nu
-``` 
+~~~
 
 Now for adding colorscheme, You have to download any of the color schemes like [distinguished](https://github.com/Lokaltog/vim-distinguished) for Vim.
 Now extract it and move `*.vim` files in `colors` directory to `~/.vim/colors/`.
 
-```sh
+~~~sh
   $ mv ~/Downloads/vim-distinguished/colors/*.vim ~/.vim/colors/
-```
+~~~
 
 Now add the following line to the `~/.vimrc` file
 
-```
+~~~
 colorscheme distinguished
-```
+~~~
 I assume that `syntax on` is already there in it.
