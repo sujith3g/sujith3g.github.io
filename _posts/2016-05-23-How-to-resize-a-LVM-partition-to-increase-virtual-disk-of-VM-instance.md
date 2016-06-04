@@ -12,10 +12,10 @@ Power off the virtual machine and then, increase the virtual disk/storage size f
 
 ### Get Gparted and resize the partition.
 
-For gparted we can either use Gparted.iso or any of ubuntu live CD. I'm using an bootable USB stick with Ubuntu live CD iso.
+For gparted we can either use Gparted.iso or any of ubuntu live CD. I'm using a bootable USB stick with Ubuntu live CD iso.
 
->> For choosing/changing the boot order/device, We have to increase the boot delay in Options -> Boot options -> Power on Boot Delay.
->> This will allow us to see the boot screen for the specified no. of milliseconds.
+> For choosing/changing the boot order/device for virtual instance, We have to increase the boot delay in Options -> Boot options -> Power on Boot Delay.
+> This will allow us to see the boot screen for the specified no. of milliseconds.
 
 In Gparetd first resize the extended partition, then resize the LVM.
 
@@ -24,22 +24,22 @@ In Gparetd first resize the extended partition, then resize the LVM.
 For resizing the LVM, first resize the Physical Volume.
 
 ```sh
-sudo pvs
+$ sudo pvs
 
 PV         VG              Fmt  Attr PSize   PFree
   /dev/sda5  ubuntuServer-vg lvm2 a--  99.76g 9.16g
 
-sudo pvresize /dev/sda5
+$ sudo pvresize /dev/sda5
 
 Physical volume "/dev/sda5" changed
   1 physical volume(s) resized / 0 physical volume(s) not resized
 
 ```
 
-Next extend the Logical volume to the full size PV(Physical Volume).
+Next extend the Logical volume to the full size of PV(Physical Volume).
 
 ```sh
-sudo lvdisplay
+$ sudo lvdisplay
 
   --- Logical volume ---
   LV Path                /dev/PA-server-vg/root
@@ -80,12 +80,12 @@ Take the LV Path of the volume to be extended(root, here /dev/PA-server-vg/root
 ), now we can resize it to the available 100% using `lvextend`.
 
 ```sh
-lvextend -l+100%FREE /dev/PA-server-vg/root
+$ lvextend -l+100%FREE /dev/PA-server-vg/root
 ```
 Now the last step is to extend the file-system on the volume.
 
 ```sh
-resize2fs /dev/PA-server-vg/root
+$ resize2fs /dev/PA-server-vg/root
 ```
 
 Now check the with `df -h`, we have resized the disk/storage of the VM.
