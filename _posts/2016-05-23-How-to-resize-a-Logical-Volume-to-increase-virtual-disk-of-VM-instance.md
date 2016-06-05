@@ -1,10 +1,10 @@
 ---
 layout: post
 comments: true
-title: How to resize a LVM partition to increase virtual disk of a VM instance.
+title: How to increase the storage of a Virtual Machine by resizing Logical Volume
 ---
 
-Resizing the partition/storage of a linux Virtual-Machine instance is done in three steps. 
+Increasing the partition/storage of a linux Virtual-Machine instance is done in three steps.
 
 ### Resize the Virtual Disk
 
