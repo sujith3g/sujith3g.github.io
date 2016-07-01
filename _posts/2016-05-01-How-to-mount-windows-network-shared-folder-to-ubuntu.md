@@ -4,7 +4,7 @@ comments: true
 title: How to mount windows network shared folder to ubuntu.
 ---
 
-For mounting windows shares in ubuntu using `cifs-utils`.
+For mounting windows shares in ubuntu using [cifs-utils](https://wiki.samba.org/index.php/LinuxCIFS_utils).
 Install cifs utils `sudo apt-get install cifs-utils`.
 
 for mounting use this command
