@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: How to host multiple website on single server with Apache
+title: How to host multiple website on a single server with Apache
 ---
 
 
@@ -10,20 +10,21 @@ You might have faced scenarios where you have to host multiple websites in same 
 
 For instance if you want to host `example.com` and `sujith.com` in a server. I am assuming that you have already installed Apache webserver.
 
-Now keep the content of sites in `/var/www/example.com/html`, `/var/www/sujith.com/html`. 
+As a first step, keep the content of sites in `/var/www/example.com/html`, `/var/www/sujith.com/html` locations.
 
 Now we have to create a virtual hosts file for both the sites in `/etc/apache2/sites-available/` directory.
 
 ### for first domain
 
 create the virtual host file from `000-default.conf`.
+
 `$ sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/example.com.conf`
 
 Open the created file in your favorite text editor
 
 `$ sudo nano /etc/apache2/sites-available/example.com.conf`
 
-Now you have to modify the default configuration like this
+Next you have to modify the default configuration like this
 
 ```
  <VirtualHost *:80>
@@ -40,13 +41,14 @@ Now you have to modify the default configuration like this
 ### for second domain
 
 create the virtual host file from `000-default.conf`.
+
 `$ sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/sujith.com.conf`
 
 Open the created file in your favorite text editor
 
 `$ sudo nano /etc/apache2/sites-available/sujith.com.conf`
 
-Now you have to modify the default configuration like this
+Next you have to modify the default configuration like this
 
 ```
  <VirtualHost *:80>
@@ -64,7 +66,7 @@ Now enable the sites
 `$ sudo a2ensite example.com.conf`
 `$ sudo a2ensite sujith.com.conf`
 
-Now you have to map both `sujith.com` and `example.com` to the IP of this server in dns settings of the domains.
+Once the site is enabled, You have to map both `sujith.com` and `example.com` to the IP of this server in dns settings of the domains.
 
 You can also test this by manually adding an entry like this to `/etc/hosts`
 
