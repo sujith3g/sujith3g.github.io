@@ -10,15 +10,15 @@ The solution was to create a WiFi Hotspot in access-point mode. For which we nee
 
 > This solution works only with, WiFi/Network cards supports access-point(AP) mode.
 
-To check whether your network card supports access-point mode or not, use the following command
+To check whether your network card supports access-point mode or not, use the following command:
 
 ```sh
     $ sudo apt-get install iw
     $ iw list
 ```
-Look for  `AP` entry under supported interface section, If it is present you can proceed.
+Look for  `AP` entry under supported interface section. If it is present you can proceed.
 
-Ubuntu's pre-installed Network Manager doesn't support AP mode, So we are using the KDE’s connection editor which supports the AP mode. You can install it uing
+Ubuntu's pre-installed Network Manager doesn't support AP mode, So we are using the KDE’s connection editor which supports the AP mode. You can install it using:
 
 ```sh
   $ sudo apt-get install plasma-nm
@@ -28,7 +28,7 @@ Once it is installed You can start it by
 ```sh
   $ kde-nm-connection-editor	
 ```
-After opening it, click `Add` Button and choose `Wirless(shared)`, Now in the `Wireless` tab set an SSID and choose `Access Point` mode.
+After opening it, click `Add` Button and choose `Wirless(shared)`. Now in the `Wireless` tab set an SSID and choose `Access Point` mode.
 
 Now set the password in the `Wireless Security` tab and Click OK.
 

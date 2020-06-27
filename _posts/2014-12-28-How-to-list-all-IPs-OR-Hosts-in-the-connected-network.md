@@ -3,30 +3,30 @@ layout: post
 title: How to list all IPs OR Hosts in the connected network
 ---
 
-Last week when I started working with my Raspberry Pi, I was looking for a tool to find the Pi's IP, Normally we used to login to the modem for details of connected hosts.  But I wanted to list all hosts and their IPs in the connected network very quickly without logging into modem. 
+Last week when I started working with my Raspberry Pi, I was looking for a tool to find the Pi's IP. Normally we used to login to the modem for details of connected hosts.  But I wanted to list all hosts and their IPs in the connected network very quickly, without logging into the modem. 
 Then I found a command-line tool called [nmap](http://en.wikipedia.org/wiki/Nmap) for listing all hosts connected to the local network.
 [nmap](http://en.wikipedia.org/wiki/Nmap) is a security scanner used to discover hosts and services on a computer network.
 
 ###How to use nmap to list all Hosts connected to the local network###
 
-first you have to check whether nmap is installed or not. by typing the following command
+First, you have to check whether nmap is installed or not, by typing the following command:
 
 ```sh
 	$ nmap --version
 ```
 
-If nmap is not installed, install it by typing
+If nmap is not installed, install it by typing:
 
 ```sh
 	$ sudo apt-get install nmap
 ```
-Now type the following command to list all hosts
+Now type the following command to list all hosts:
 
 ```sh
 	$ nmap -sn 192.168.1.0/24
 ```
 
-Which gives you a list like this
+Which gives you a list like this:
 
 ```
 	$ nmap -sn 192.168.1.0/24

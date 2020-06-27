@@ -4,7 +4,7 @@ comments: true
 title: How to enable password authentication in MongoDB 3.x
 ---
 
-Create one admin user in the special db `admin` like this
+Create one admin user in the special db `admin` like this:
 
 ```sh
 
@@ -15,7 +15,7 @@ Create one admin user in the special db `admin` like this
 
 ```
 
-Now open `/ect/mongod.conf` in your favorite text editor and enable authentication by adding this to it.
+Now open `/ect/mongod.conf` in your favorite text editor and enable authentication by adding this to it:
 
 ```sh
 

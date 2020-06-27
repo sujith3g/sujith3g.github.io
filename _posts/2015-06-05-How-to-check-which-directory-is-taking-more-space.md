@@ -5,7 +5,7 @@ title: How to check which directory is taking more disk space in linux
 ---
 
 Yesterday when I logged in to my server, I noticed that about 90% of the disk space used. Normally I use ssh to access my server from home.
-So I wanted a tool/method to find the directory which is using more disk space, that too from terminal. After some googling I found the following command which will list the top largest directories
+So I wanted a tool/method to find the directory which is using more disk space, that too from terminal. After some browsing, I found the following command which will list the top largest directories:
 
 To list top 10 largest directories in the current directory
 
@@ -39,7 +39,7 @@ Options used with [`head`](https://en.wikipedia.org/wiki/Head_(Unix))
 ```
    n: used to specify the number of lines to be printed 
 ```
- The output for the above command will look like this
+ The output for the above command will look like this:
 
 ```
 41752	Mac Format - March 2015 {bk}.pdf

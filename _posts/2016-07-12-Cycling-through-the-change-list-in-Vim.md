@@ -8,7 +8,7 @@ For moving or jumping cursor to the last edited locations in [Vim](https://en.wi
 
 `g,` moves cursor forward or to the newer positions in change list, `g;` moves the cursor to the older location or positions in the changelist.
 
-Both of these operations can accept `count` as an optional argument which will take cursor to the `n`-th position in the change list.
+Both of these operations can accept `count` as an optional argument, which will take cursor to the `n`-th position in the change list.
 
 To know more about `changelist` use `:help changelist`.
 

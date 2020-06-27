@@ -3,14 +3,14 @@ layout: post
 title: Running Background process in remote server using ssh
 ---
 
-If you are handling remote server using ssh, You may require this. Last week I was trying to run my meteor application on the server using ssh. I started the meteor app on the server using ssh, But when I logged out from the ssh console, the meteor app stopped. I wanted a solution to run a background process in the server. So that the process I started won't exit even If I logged out from the ssh console. The following commands worked.
+If you are handling remote server using ssh, you may require this. Last week I was trying to run my meteor application on the server using ssh. I started the meteor app on the server using ssh. But when I logged out from the ssh console, the meteor app stopped. I wanted a solution to run a background process in the server. So that the process I started won't exit even If I logged out from the ssh console. The following commands worked:
 
-First I started the process(for me its my meteor app) as background process using `&` at the end of command as shown below
+First, I started the process(for me its my meteor app) as background process using `&` at the end of command as shown below:
 
 ```sh
 	$ meteor -p 4040 >> ~/myapp.log &
 ```
-Then I got the output with the processId, like this
+Then I got the output with the processId, like this:
 
 ```sh
 	$ meteor -p 4040 >> ~/myapp.log &
@@ -20,7 +20,7 @@ which shows two things `[1]` is the job-number for the background job and the `1
 
 Now use the `$ bg` command to move the job to background, [bg](http://en.wikipedia.org/wiki/Bg_%28Unix%29) resumes the suspended process in the background.
 
-Now use [disown](http://en.wikipedia.org/wiki/Disown_%28Unix%29) command to remove the process from job table, so that the process will be running in the background even we logged out from the ssh console. 
+Now use [disown](http://en.wikipedia.org/wiki/Disown_%28Unix%29) command to remove the process from job table, so that the process will be running in the background even when we logged out from the ssh console. 
 
 ```sh
 	$ disown %1

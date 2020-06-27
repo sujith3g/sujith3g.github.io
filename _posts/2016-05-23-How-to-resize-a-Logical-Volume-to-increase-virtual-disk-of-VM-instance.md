@@ -12,7 +12,7 @@ Power off the virtual machine and then, increase the virtual disk/storage size f
 
 ### Get Gparted and resize the partition.
 
-For gparted we can either use Gparted.iso or any of ubuntu live CD. I'm using a bootable USB stick with Ubuntu live CD iso.
+For gparted, we can either use Gparted.iso or any of ubuntu live CD. I'm using a bootable USB stick with Ubuntu live CD iso.
 
 > For choosing/changing the boot order/device for virtual instance, We have to increase the boot delay in Options -> Boot options -> Power on Boot Delay.
 > This will allow us to see the boot screen for the specified no. of milliseconds.

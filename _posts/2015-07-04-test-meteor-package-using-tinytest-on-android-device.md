@@ -8,7 +8,7 @@ Last week I have created a [meteor](http://meteor.com/) package which had some c
 So I was about to use Tinytest for testing the package.
 
 But how to test the cordova-specific feature ?.
-I read the Meteor Cordova Phonegap Integration guide from [here](https://github.com/meteor/meteor/wiki/Meteor-Cordova-Phonegap-integration). They mentioned about how to perform tests in an android device [here](https://github.com/meteor/meteor/wiki/Meteor-Cordova-Phonegap-integration#testing). Now I tried the following
+I read the Meteor Cordova Phonegap Integration guide from [here](https://github.com/meteor/meteor/wiki/Meteor-Cordova-Phonegap-integration). They mentioned about how to perform tests in an android device [here](https://github.com/meteor/meteor/wiki/Meteor-Cordova-Phonegap-integration#testing). Now I tried the following:
 
 ```
 meteor test-packages --android-device ./

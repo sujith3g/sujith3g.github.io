@@ -38,7 +38,7 @@ tcp        0      0 0.0.0.0:3000            0.0.0.0:*               LISTEN      
 
 ```
 
-The options used with netstat are 
+The options used with netstat are:
 
 ```
 	t : Display tcp connections.
@@ -48,7 +48,7 @@ The options used with netstat are
 
 ```
 
-A node server script is running with PID ``` 19911 ``` , to kill that I use 
+A node server script is running with PID ``` 19911 ``` , to kill that I use :
 
 ```sh 
 
