@@ -53,8 +53,9 @@ Now pass creates a git commit for each change you make to your passwords.
 
 ### Next steps
 
-pass is available in mobile devices as well. I use the Android app .
-You can use Paperkey to get your GPG key printed on a paper, and use it
+pass is available in mobile devices as well. I use the community
+maintained Android app [Android-Password-Store](https://github.com/zeapo/Android-Password-Store#readme).
+You can use [Paperkey](https://en.wikipedia.org/wiki/Paper_key) to get your GPG key printed on a paper, and use it
 when you have lost access to your computer, to restore it to a new device.
 
 
